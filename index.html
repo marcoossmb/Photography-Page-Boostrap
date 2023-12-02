@@ -6,12 +6,176 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/3ed6284a33.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./assets/images/logotipo.jpeg" type="image/x-icon">
   <title>Photography Marcos</title>
 </head>
 
 <body>
+  <div class="contenedor">
+    <!-- INICIO DEL HEADER -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid navbar-container">
 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Editoriales</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link active" href="#">Extra</a>
+            </li>
+            <li class="nav-item ms-5 dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Tienda
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Cámaras</a></li>
+                <li><a class="dropdown-item" href="#">Objetivos</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Sesiones</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div>
+            <img src="./assets/images/logopng.png" alt="" class="navbar__logo">
+          </div>
+          <form class="d-flex" role="Buscar">
+            <input class="form-control me-2" type="Buscar" placeholder="Buscar..." aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- FIN DEL HEADER -->
+
+    <!-- INICIO DEL MAIN -->
+    <div id="carouselExampleIndicators" class="carousel slide mt">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/slider2.jpg" class="d-block w-100 carousel__image" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/slider1.jpg" class="d-block w-100 carousel__image" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/slider3.jpg" class="d-block w-100 carousel__image" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/images/citycard.jpg" class="card-img-top" alt="Cityscape">
+          <div class="card-body">
+            <h5 class="card-title">Ciudades</h5>
+            <p class="card-text text-justify">Explora la majestuosidad de las ciudades a través de mi lente. Cada imagen
+              captura la
+              esencia única de lugares urbanos alrededor del mundo.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Última actualización hace 10 minutos</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/images/animalcard.jpg" class="card-img-top" alt="Animals">
+          <div class="card-body">
+            <h5 class="card-title">Animales</h5>
+            <p class="card-text text-justify">Adéntrate en el reino animal a través de mis fotografías. Cada imagen
+              cuenta una
+              historia única de la belleza y diversidad de la vida salvaje.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Última actualización hace 33 minutos</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/images/comidacard.jpg" class="card-img-top" alt="Food">
+          <div class="card-body">
+            <h5 class="card-title">Comida</h5>
+            <p class="card-text text-justify">Descubre la deliciosa variedad culinaria a través de mi lente. Cada imagen
+              te invita a
+              saborear visualmente la riqueza de la gastronomía.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Última actualización hace 7 minutos</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN DEL MAIN -->
+
+    <!-- INICIO DEL FOOTER -->
+    <footer class="bg-white d-flex flex-column">
+      <div class="container py-5 d-flex ms-6">
+        <div class="d-flex w-100 justify-content-between">
+          <div class="col-md-4">
+            <h5>Enlaces Rápidos</h5>
+            <ul class="list-unstyled mt-4">
+              <li><a class="color__beige" href="#">Inicio</a></li>
+              <li><a class="color__beige" href="#">Ciudades</a></li>
+              <li><a class="color__beige" href="#">Animales</a></li>
+              <li><a class="color__beige" href="#">Comida</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-3">Contacto</h5>
+            <div class="mt-4">
+              <p class="fw-bold">Correo Electrónico:</p>
+              <a class="color__beige" href="mailto:fotografiamarcos@gmail.com">fotografiamarcos@gmail.com</a>
+            </div><br>
+            <div class="d-flex">
+              <p class="fw-bold">Teléfono:</p>&nbsp;
+              <p>612 33 45 67</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5>Síguenos</h5>
+            <ul class="list-inline mt-5 d-flex">
+              <li class="list-inline-item me-5"><a target="_blank" href="https://www.facebook.com/"><i class="color__beige fs-1 fab fa-facebook"></i></a></li>
+              <li class="list-inline-item me-5"><a target="_blank" href="https://twitter.com/"><i class="color__beige fs-1 fab fa-x-twitter"></i></a></li>
+              <li class="list-inline-item me-5"><a target="_blank" href="https://www.instagram.com/"><i class="color__beige fs-1 fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-1">
+        <p>&copy; 2023 Fotografías Marcos. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <!-- FIN DEL FOOTER -->
+  </div>
+  <div class="foot__marg"></div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>

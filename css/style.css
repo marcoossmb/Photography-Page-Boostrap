@@ -1,0 +1,56 @@
+body {
+    background-color: #E8DDD3;
+}
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+}
+
+.navbar-container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.navbar__logo {
+    width: 90px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
+
+.carousel__image {
+    height: 550px;
+    object-fit: cover;
+}
+.mt{
+    margin-top: 150px;
+}
+.back__beig{
+    width: 100%;
+    background-color: #E8DDD3;
+}
+.text-justify{
+    text-align: justify;
+}
+.ms-6{
+    margin-left: 100px;
+}
+
+.color__beige{
+    color: #c5ac95;
+}
+.foot__marg{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 1250px;
+    left: 0;
+    z-index: -1;
+}
