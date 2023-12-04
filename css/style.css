@@ -68,6 +68,10 @@ body {
     z-index: -1;
 }
 
+.foot__marg-sob{
+    top: 1110px;
+}
+
 .btn-custom:hover {
     background-color: #c5ac95;
     border: 1px solid #c5ac95;
@@ -96,4 +100,29 @@ body {
 
 .img__form {
     width: 400px;
+}
+
+.div__sobremi {
+    height: 350px;
+    background-image: url(../assets/images/hugimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 100px;
+}
+
+.fs-10 {
+    font-family: "Belleza Regular";
+    font-size: 3rem;
+}
+
+.alert {
+    margin: 470px 0 0 200px;
+    height: 100px;
+    width: 700px;
+    text-align: justify;
+}
+
+.card__about{
+    height: 200px;
 }
