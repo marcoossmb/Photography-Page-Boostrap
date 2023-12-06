@@ -50,6 +50,7 @@ body {
 .ms-6 {
     margin-left: 100px;
 }
+
 .ps-6 {
     padding-left: 130px;
 }
@@ -122,4 +123,29 @@ body {
 
 .font__cottage {
     font-family: "cottage";
+}
+
+.home__section {
+    margin-right: 50px;
+}
+
+.nav-link {
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.item__img {
+    width: 150px;
+    transition: all 0.7s ease;
+}
+
+.item__img:hover {
+    transform: scale(1.2);
+}
+
+.modal__p {
+    font-size: 13px;
 }
