@@ -51,7 +51,8 @@
             <img src="./assets/images/logopng.png" alt="" class="navbar__logo">
           </div>
           <form class="d-flex" role="Buscar">
-            <input class="form-control me-2 outline-0 border__beige border-top-0 border-start-0 border-end-0 me-4" type="Buscar" placeholder="Buscar..." aria-label="Buscar">
+            <input class="form-control me-2 outline-0 border__beige border-top-0 border-start-0 border-end-0 me-4"
+              type="Buscar" placeholder="Buscar..." aria-label="Buscar">
             <button class="btn btn-outline-success btn-custom color__beige border__beige" type="submit">Buscar</button>
           </form>
         </div>
@@ -72,12 +73,24 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./assets/images/slider2.jpg" class="d-block w-100 carousel__image" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Capturando</h5>
+            <p>Explora el mundo a través de la lente de esta increíble cámara.</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="./assets/images/slider1.jpg" class="d-block w-100 carousel__image" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Esplendor</h5>
+            <p>Sumérgete en la serenidad de la naturaleza.</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="./assets/images/slider3.jpg" class="d-block w-100 carousel__image" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Aventuras</h5>
+            <p>Captura la esencia de los mejores momentos.</p>
+          </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -91,6 +104,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
     <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
       <div class="col">
         <div class="card h-100">
@@ -140,39 +154,42 @@
     <!-- INICIO DEL FOOTER -->
     <footer class="bg-white d-flex flex-column mt-5 w-100 position-absolute end-0">
       <div class="container ps-6 py-5">
-          <div class="row justify-content-between">
-              <div class="col-md-4">
-                  <h5>Enlaces Rápidos</h5>
-                  <ul class="list-unstyled mt-4">
-                      <li><a class="color__beige" href="./index.html">Inicio</a></li>
-                      <li><a class="color__beige" href="./pages/sobremi.html">Sobre mí</a></li>
-                      <li><a class="color__beige" href="./pages/editorial.html">Editorial</a></li>
-                      <li><a class="color__beige" href="./pages/tienda.html">Tienda</a></li>
-                  </ul>
-              </div>
-              <div class="col-md-4">
-                  <h5 class="mb-3">Contacto</h5>
-                  <div class="mt-4">
-                      <p class="fw-bold">Correo Electrónico:</p>
-                      <a class="color__beige" href="mailto:fotografiamarcos@gmail.com">fotografiamarcos@gmail.com</a>
-                  </div><br>
-                  <div class="d-flex">
-                      <p class="fw-bold">Teléfono:</p>&nbsp;
-                      <p>612 33 45 67</p>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <h5>Síguenos</h5>
-                  <ul class="list-inline mt-5 d-flex">
-                      <li class="list-inline-item me-5"><a target="_blank" href="https://www.facebook.com/"><i class="color__beige fs-1 fab fa-facebook"></i></a></li>
-                      <li class="list-inline-item me-5"><a target="_blank" href="https://twitter.com/"><i class="color__beige fs-1 fab fa-x-twitter"></i></a></li>
-                      <li class="list-inline-item me-5"><a target="_blank" href="https://www.instagram.com/"><i class="color__beige fs-1 fab fa-instagram"></i></a></li>
-                  </ul>
-              </div>
+        <div class="row justify-content-between">
+          <div class="col-md-4">
+            <h5>Enlaces Rápidos</h5>
+            <ul class="list-unstyled mt-4">
+              <li><a class="color__beige" href="./index.html">Inicio</a></li>
+              <li><a class="color__beige" href="./pages/sobremi.html">Sobre mí</a></li>
+              <li><a class="color__beige" href="./pages/editorial.html">Editorial</a></li>
+              <li><a class="color__beige" href="./pages/tienda.html">Tienda</a></li>
+            </ul>
           </div>
+          <div class="col-md-4">
+            <h5 class="mb-3">Contacto</h5>
+            <div class="mt-4">
+              <p class="fw-bold">Correo Electrónico:</p>
+              <a class="color__beige" href="mailto:fotografiamarcos@gmail.com">fotografiamarcos@gmail.com</a>
+            </div><br>
+            <div class="d-flex">
+              <p class="fw-bold">Teléfono:</p>&nbsp;
+              <p>612 33 45 67</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5>Síguenos</h5>
+            <ul class="list-inline mt-5 d-flex">
+              <li class="list-inline-item me-5"><a target="_blank" href="https://www.facebook.com/"><i
+                    class="color__beige fs-1 fab fa-facebook"></i></a></li>
+              <li class="list-inline-item me-5"><a target="_blank" href="https://twitter.com/"><i
+                    class="color__beige fs-1 fab fa-x-twitter"></i></a></li>
+              <li class="list-inline-item me-5"><a target="_blank" href="https://www.instagram.com/"><i
+                    class="color__beige fs-1 fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="text-center py-1">
-          <p>&copy; 2023 Fotografías Marcos. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Fotografías Marcos. Todos los derechos reservados.</p>
       </div>
     </footer>
     <!-- FIN DEL FOOTER -->
