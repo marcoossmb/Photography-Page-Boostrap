@@ -94,7 +94,20 @@ body {
 }
 
 .img__form {
-    width: 400px;
+    display: none;
+    width: 300px;
+}
+
+@media screen and (min-width:768px) {
+    .img__form {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .img__form {
+        width: 350px;
+    }
 }
 
 .div__sobremi {
@@ -148,4 +161,20 @@ body {
 
 .modal__p {
     font-size: 13px;
+}
+
+.contenedor__register {
+    width: 100vh;
+    height: 100vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 82%;
+    background: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 150px;
+    color: white;
+    padding: 20px;
 }
